@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Página de ayuda para Tham! comic reader.">
+    <title>Tham! Comic Reader</title>
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+
+    
+
+</head>
+
+<body id="body">
+    <h1>Sección de ayuda</h1>
+    <p>En esta sección vamos a comentar los problemas más comunes y como solucionarlos:
+    </p>
+    <h2>Archivos inválidos</h2>
+    <p>Si la aplicación devuelve una alerta con la información sobre archivos inválidos, puede ser por múltiples razones debido a tus archivos.<br><br>
+        Sigue leyendo para más información:
+    </p>
+    <h3>Formato de archivo erróneo</h3>
+    <p>Asegurate de que el archivo comprimido utiliza un formato de compresión válido e incluye la extensión correcta. Las extensiones validas son<br><br>
+        archivos .cbz, archivos .cbr, archivos .cb7. También asegurate de que el archivo descomprimido sigue la misma estructura:<br><br>
+        La carpeta raíz contiene el nombre del comic y dentro de esta carpeta tienes directamente las páginas del cómic.<br><br>
+        Para poder comprobar esto, puedes descomprimir tu cbz,cbr,cb7 usando <a href="https://www.keka.io/">Keka</a><br><br>
+        Esta es una imágen que contiene la estructura correcta:<br><br>
+        <img src="../../common/GoodStructure.png" alt="Image with the correct structure of a comic"> <br><br>
+        Y aquí hay una con una estructura errónea:<br><br>
+        <img src="../../common/BadStructure.png" alt="Image with a bad structure of a comic">
+        <br><br>
+        Asegurate de que el nombre del cómic es el mismo que la carpeta raíz.<br><br>
+        Una vez que tengas el cómic con la estructura correcta, puedes comprimir el comic utilizando un formato diferente, el mejor formato para la app es <br>
+        el archivo cbz.<br><br> Para comprimir un cómic con el formato cbz, seleccióna la carpeta raíz de tu cómic y comprimela con el formato zip. Después, cambia la extensión de .zip a .cbz y después envíalo a tu dispositivo.<br><br>
+        Ejemplo: MySuperComicRenamed.zip -> MySuperComicRenamed.cbz
+    </p>
+    <h3>Nombre erróneo</h3>
+    <p>Otro error común es tener el cómic con un nombre distinto al original.<br>
+    Descomprime tu cómic utilizando <a href="https://www.keka.io/">Keka</a> y asegurate de que el nombre del cómic es el mismo que el de la carpeta raíz.<br><br>
+    Por ejemplo, si el nombre del cómic es MySuperComic.cbz. Cuando lo descomprimas, la carpeta raíz debería llamarse MySuperComic.<br><br>
+    Si el archivo raíz tiene otro nombre, por favor cambialo y vuelve a comprimirlo a zip, y después cambiale la extensión a cbz.<br><br>
+    Ejemplo: MySuperComicRenamed.zip -> MySuperComicRenamed.cbz
+    </p>
+    <h2>¿Por qué la portada no es la primera página?</h2>
+    <p>Si tienes un cómic cuya portada no es la imagen que aparece en la colección, por favor sigue los siguientes pasos:<br><br>
+        Descomprime el archivo<br><br>
+        Abre la carpeta raíz y comprueba si la portada es la primera imagen si ordenas el contenido por nombre<br><br>
+        Si no, cambia el nombre de la portada para que sea la primera en la carpeta.<br><br>
+        Comprime de nuevo el archivo a zip y cambia la extensión a cbz.
+    </p>
+</body>
+
+<style type="text/css">
+body{
+    background: rgba(241,111,92,1);
+background: -moz-linear-gradient(top, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(248,80,50,1) 43%, rgba(246,41,12,1) 65%, rgba(240,47,23,1) 86%, rgba(231,56,39,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,111,92,1)), color-stop(7%, rgba(241,111,92,1)), color-stop(43%, rgba(248,80,50,1)), color-stop(65%, rgba(246,41,12,1)), color-stop(86%, rgba(240,47,23,1)), color-stop(100%, rgba(231,56,39,1)));
+background: -webkit-linear-gradient(top, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(248,80,50,1) 43%, rgba(246,41,12,1) 65%, rgba(240,47,23,1) 86%, rgba(231,56,39,1) 100%);
+background: -o-linear-gradient(top, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(248,80,50,1) 43%, rgba(246,41,12,1) 65%, rgba(240,47,23,1) 86%, rgba(231,56,39,1) 100%);
+background: -ms-linear-gradient(top, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(248,80,50,1) 43%, rgba(246,41,12,1) 65%, rgba(240,47,23,1) 86%, rgba(231,56,39,1) 100%);
+background: linear-gradient(to bottom, rgba(241,111,92,1) 0%, rgba(241,111,92,1) 7%, rgba(248,80,50,1) 43%, rgba(246,41,12,1) 65%, rgba(240,47,23,1) 86%, rgba(231,56,39,1) 100%);
+    color: white;
+    font-family: "DIN Alternate";
+    margin-bottom: 25px;
+}
+
+h1,h2,h3,p{
+   text-align: center;
+}
+
+
+img{
+    max-width: 100%;
+  height: auto;
+}
+</style>
+
+</html>
