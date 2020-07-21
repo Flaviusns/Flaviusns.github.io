@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: white;
+}
+
+body{
+    background: rgba(241,111,92,1);
+    font-family: "DIN Alternate";
+    text-align: center;
+}
+
+.mainTitle {
+    background-color: rgb(48, 48, 48);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mainTitle h1{
+    color: white;
+    font-size: 124px;
+}
+
+.section {
+    color: white;
+    margin-bottom: 7%;
+}
+
+.section h2{
+    margin-bottom: 15px;
+}
+
+.section p{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.section img{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.downloadNow {
+    margin-bottom: 15%;
+}
+
